@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stickers</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Georgia', serif;
+            background-color: #f9f9fb;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            flex-direction: column;
+        }
+
+        .back-btn {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            padding: 10px 25px;
+            border: none;
+            border-radius: 20px;
+            background: #c9c9e8;
+            color: #ffffff;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .back-btn:hover {
+            background: #b5b5d9;
+        }
+
+        .container {
+            width: 900px;
+            height: 550px;
+            background: #c9c9e8;
+            border-radius: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            text-align: left;
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: #ffffff;
+            padding-left: 30px;
+            margin: 0;
+        }
+
+        .sticker-box {
+            width: 90%;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 30px;
+            background: #eeeeee;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .sticker img {
+            width: 150px;
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+
+        .sticker img:hover {
+            transform: scale(1.2);
+        }
+
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<a href="Page3.html">
+    <button class="back-btn">Back</button>
+</a>
+<div class="container">
+    <h1>Stickers</h1>
+    <div class="sticker-box">
+        <div class="sticker"><img src="5272436.jpg" alt="Sticker 1"></div>
+    </div>
+</div>
+
+</body>
+</html>

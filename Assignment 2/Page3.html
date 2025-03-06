@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's in your Mind</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Georgia', serif;
+            background-color: #f9f9fb;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            flex-direction: column;
+        }
+
+        .back-btn {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            padding: 10px 25px;
+            border: none;
+            border-radius: 20px;
+            background: #c9c9e8;
+            color: #ffffff;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .back-btn:hover {
+            background: #b5b5d9;
+        }
+
+        .container {
+            width: 900px;
+            height: 500px;
+            background: #c9c9e8;
+            border-radius: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: #ffffff;
+            text-align: left;
+            padding-left: 20px;
+        }
+
+        .textarea {
+            width: 90%;
+            height: 50%;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 20px;
+            background: #ffffff;
+            outline: none;
+            border: none;
+            font-size: 1.2rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: left;
+        }
+
+        .bottom-buttons {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 30px;
+            margin-top: 20px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            border-radius: 20px;
+            background: #c9c9e8;
+            color: #000;
+            cursor: pointer;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .btn:hover {
+            background: #b5b5d9;
+        }
+
+        .right-btns {
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn img {
+            width: 20px;
+            height: 20px;
+        }
+
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<a href="Page2.html">    
+    <button class="back-btn">Back</button>
+</a>
+<div class="container">
+    <h1>What's in your mind</h1>
+    <textarea class="textarea" placeholder="Write something..."></textarea>
+
+    <div class="bottom-buttons">
+        <div>
+            <button class="btn">🏠 Home</button>
+            <a href="Page5.html">
+                <button class="btn">🔍 Search</button>
+            </a>
+            <a href="Page6.html">
+                <button class="btn">❤️</button>
+            </a>
+        </div>
+        <div class="right-btns">
+            <a href="Page7.html">
+                <button class="btn">😊 Emoji</button>
+            </a>
+            <a href="Page8.html">
+                <button class="btn">🎨 Sticker</button>
+            </a>
+            <a href="Page9.html">
+                <button class="btn">AI</button>
+            </a>
+            <a href="Page10.html">
+                <button class="btn">✔️</button>
+            </a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

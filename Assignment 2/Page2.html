@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9fb; /* White Background */
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-family: 'Georgia', serif;
+            flex-direction: column;
+        }
+
+        .back-btn {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            padding: 10px 25px;
+            border: none;
+            border-radius: 20px;
+            background: #c9c9e8; 
+            color: #ffffff;
+            cursor: pointer;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            transition: background 0.3s ease, color 0.3s ease;
+        }
+
+        .back-btn:hover {
+            background: #b5b5d9;
+        }
+
+        .login-box {
+            width: 400px;
+            padding: 50px;
+            background: #c9c9e8; /* Light lavender box */
+            border-radius: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: #ffffff;
+            margin-bottom: 40px;
+        }
+
+        label {
+            display: block;
+            text-align: left;
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+            color: #ffffff;
+        }
+
+        input {
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 20px;
+            outline: none;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .submit-btn {
+            padding: 12px 40px;
+            border: none;
+            border-radius: 30px;
+            background: #e0e0f0;
+            color: #b5b5c3;
+            cursor: pointer;
+            transition: background 0.3s ease, color 0.3s ease;
+        }
+
+        .submit-btn:hover {
+            background: #d0d0e5;
+        }
+
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<a href="Page1.html">
+    <button class="back-btn">Back</button>
+</a>
+
+<div class="login-box">
+    <h1>Login</h1>
+    <form>
+        <label>Username :</label>
+        <input type="text" placeholder="Enter Username" required>
+        
+        <label>Password :</label>
+        <input type="password" placeholder="Enter Password" required>
+
+    </form>
+    <a href="Page3.html">
+        <button type="submit" class="submit-btn">Submit</button>
+    </a>
+</div>
+
+</body>
+</html>
